@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px){
+    #Spinbar-wrap{
+        height: auto;
+    }
+
+    #Spinbar{
+        flex-wrap: wrap;
+    }
+
+    #Spinbar-control-pane{
+        flex-direction: column;
+    }
+
+    #Spinbar-control-pane > button{
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    #Spinbar-control-pane > input{
+        width: 200px;
+    }
+    
+    #Win-status{
+        width: auto;
+    }
+}
